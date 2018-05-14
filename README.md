@@ -1,4 +1,3 @@
-# linux-scripts-apps-sw-api-rest
 # Package linux-scripts-apps-sw-api-rest<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/stockWidgets.png" width="6%" align= "right">
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
