@@ -8,6 +8,8 @@ group = $2
 home  = $3
 pkg   = $4
 
+echo Adding user $user, group, $group with home $home for pkg $pkg
+
 #Check if $pkg admin user exists
 if grep -q $user "/etc/passwd"; then
    echo Wildfly User $user exists; Not adding
