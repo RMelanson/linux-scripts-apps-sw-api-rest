@@ -3,10 +3,10 @@ then
     echo "Illegal number of parameters"
 fi
 
-user  = $1
-group = $2
-home  = $3
-pkg   = $4
+user=$1
+group=$2
+home=$3
+pkg=$4
 
 echo Adding user $user, group, $group with home $home for pkg $pkg
 
