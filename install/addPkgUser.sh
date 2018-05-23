@@ -12,7 +12,7 @@ echo Adding user $user, group, $group with home $home for pkg $pkg
 
 #Check if $pkg admin user exists
 if grep -q $user "/etc/passwd"; then
-   echo Wildfly User $user exists; Not adding
+   echo User $user exists: \*\*\* Not adding \*\*\*
 else
    #Create $pkg admin user $user and $pkg group $group
    #Check if user directory exists and create it if it does not
