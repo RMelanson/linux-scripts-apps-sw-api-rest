@@ -18,7 +18,7 @@ else
    #Check if user directory exists and create it if it does not
    if [ ! -d $home ]
    then
-      echo $home does not exist ** CREATING **
+      echo $home does not exist \*\*\* CREATING \*\*\*
       mkdir $home
    fi
    echo Adding $pkg admin user $user to group $group
