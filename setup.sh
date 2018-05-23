@@ -1,8 +1,20 @@
 #! /bin/bash
+
 # Setup the required environment
 . ./env/setEnv.sh#
 
-./install/addPkgUser.sh swadmin swadmin home/SW_HOME stockWidgets
+# Setup the required user
+user=swadmin
+group=swadmin
+home=/home/SW_HOME
+pkg=stockWidgets
+./install/addPkgUser.sh $user $group $home $pkg
 
+# Install the JBOSS
 ./install/jBOSS.sh
-./install/eodTestData.sh
+
+# Install test Data
+./install/install_EOD_TestData.sh
+
+# Install the Stock Widgets Application
+./install/install_SW_App.sh
