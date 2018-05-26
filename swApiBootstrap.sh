@@ -6,6 +6,12 @@ if [ "$EUID" -ne 0 ]
   exit -1
 fi
 
+if [ -z "$1" ]; then
+   branch=master
+else
+  branch=$1
+fi
+
 #Set Cloning Properties
 pkg=Web
 gitRepo="linux-scripts-apps-sw-api-rest"
