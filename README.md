@@ -46,12 +46,12 @@ You're sections headers will be used to reference location of destination.
 - [README.md](./README.md) ~ Readme file
 - [swAPIBootstrap.sh](./swAPIBootstrap.md)  ~ Installs the package
 - [setup.sh](./setup.sh) - is the master setup file for package installation and may be run directly as root ./setup.sh, or as user with sudo access sudo ./setupBootstrap.sh
- - install/
-   - [addPkgUser](./install/addPkgUser.sh)
-   - [deploySwWarApps](./install/deploySwWarApps.sh)
-   - [installSwApp](./install/installSwApp.sh)
-   - [install_EOD_TestData.sh](./install/install_EOD_TestData.sh)
-   - [jbossBootstrap](./install/jbossBootstrap.sh)
+  - install/
+    - [addPkgUser](./install/addPkgUser.sh)
+    - [deploySwWarApps](./install/deploySwWarApps.sh)
+    - [installSwApp](./install/installSwApp.sh)
+    - [install_EOD_TestData.sh](./install/install_EOD_TestData.sh)
+    - [jbossBootstrap](./install/jbossBootstrap.sh)
  -
 -
 -
