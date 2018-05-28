@@ -6,6 +6,7 @@ mkdir $SW_ENV=$SW_HOME/.env
 cp -rf $SW_INSTALL/env $SW_ENV
 . ./$SW_ENV/.alias
 
+wfDeployDir=/opt/wildfly/standalone/deployments
 user=swadmin
 group=swadmin
 home=/home/SW_HOME
