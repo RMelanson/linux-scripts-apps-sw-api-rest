@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # SETUP STOCK WIDGETS ENVIRONMENT
-. ./env/setEnv.sh#
+. ./env/setEnv.sh
 
 # ADD STOCK WIDGETS ADMIN USER
 ./install/addPkgUser.sh $user $group $home $pkg
