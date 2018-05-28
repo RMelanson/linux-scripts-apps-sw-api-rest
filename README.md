@@ -45,7 +45,7 @@ You're sections headers will be used to reference location of destination.
 
 - [README.md](./README.md) ~ Readme file
 - [swAPIBootstrap.sh](./swAPIBootstrap.md)  ~ Installs the package
-- [setup.sh](./setup.sh) - is the master setup file for package installation and may be run directly as root ./setup.sh, or as user with sudo access sudo ./setupBootstrap.sh
+- [setup.sh](./setup.sh) - is the master setup file for package installation and may be run directly as root ./setup.sh, or as user with sudo access sudo
   - install/
     - [addPkgUser](./install/addPkgUser.sh)
     - [deploySwWarApps](./install/deploySwWarApps.sh)
