@@ -11,10 +11,12 @@ pkg=stockWidgets
 ./install/addPkgUser.sh $user $group $home $pkg
 
 # Install the JBOSS
-./install/jBOSS.sh
+./install/jbossBootstrap.sh
+
 
 # Install test Data
-./install/install_EOD_TestData.sh
+./install/swTestDataBootstrap.sh
+
 
 # Install the Stock Widgets Application
 ./install/install_SW_App.sh
