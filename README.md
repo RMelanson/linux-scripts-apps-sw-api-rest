@@ -40,7 +40,7 @@ You're sections headers will be used to reference location of destination.
     - You may modify the script installation file (swBootstrap.sh.sh) to change the directory package installation location.
     - Upon Completion of installation, the installation directory and all contents may be removed.
 - - - -
-### Contents <img src="./images/contents.png" width="6%" align= "right">
+### Pakage Contents <img src="./images/contents.png" width="6%" align= "right">
 
 - README.md ~ Readme file
 - xxxxxBootstrap.sh  ~ Installs the package
