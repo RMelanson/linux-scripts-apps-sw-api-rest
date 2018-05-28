@@ -20,7 +20,7 @@ You're sections headers will be used to reference location of destination.
 - There may not be an associated uninstal script, so uninstalling is the owners responsibility.
 - It is recommended to be installed on a test system in a test environment before promoting to a production environment.<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/caution.png" width="6%" align= "right">
 ## <b>**Install at your own Risk</b>
-### Repository<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/repository.png" width="6%" align= "right">
+### Repository<img src="./images/repository.png" width="6%" align= "right">
 - https://github.com/RMelanson/linux-scripts-api-rest-stockWidgets
 #
 ### About<img src="./images/aboutMickey.png" width="6%" align= "right">
