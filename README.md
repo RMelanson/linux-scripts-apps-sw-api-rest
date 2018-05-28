@@ -62,7 +62,7 @@ It is recommended to read the contents of the scripts to be assured of the insta
        - execute as root ./swBootstrap.sh.sh
        - or as user with sudo access sudo ./swBootstrap.sh.sh
 - - - -
-### Video Tutorial<img src="./images/video.png" width="6%" align= "right">
+### Video Tutorial<img src="./images/video.png" width="7%" align= "right">
 - Video Tutorial Hyper Link comming soon...
 - - - - -
 ### About the Author
