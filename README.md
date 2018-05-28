@@ -23,7 +23,7 @@ You're sections headers will be used to reference location of destination.
 ### <b>**Install at your own Risk</b>
 - - - -
 ### Repository<img src="./images/repository.png" width="6%" align= "right">
-- https://github.com/RMelanson/linux-scripts-api-rest-stockWidgets
+- https://github.com/RMelanson/linux-scripts-apps-sw-api-rest
 - - - -
 ### About<img src="./images/aboutMickey.png" width="6%" align= "right">
 - Version: 1.0.0
