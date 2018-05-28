@@ -1,5 +1,5 @@
 #! /bin/bash
- # https://github.com/RMelanson/linux-scripts-apps-sw-api-rest/blob/master/setup.sh
+
 # SETUP STOCK WIDGETS ENVIRONMENT
 . ./env/setEnv.sh#
 
