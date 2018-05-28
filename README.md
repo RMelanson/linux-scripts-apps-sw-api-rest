@@ -1,6 +1,6 @@
 # Package linux-scripts-apps-sw-api-rest<img src="./images/Rest1.png" width="6%" align= "right">
 - - - -
-### Table of Contents <img src="./images/dir3.png" width="6%" align= "right">
+### Table of Contents <img src="./images/dir3.png" width="7%" align= "right">
 You're sections headers will be used to reference location of destination.
 
 - [CopyRight ©](#CopyRight)
@@ -25,7 +25,7 @@ You're sections headers will be used to reference location of destination.
 ### Repository<img src="./images/repository.png" width="6%" align= "right">
 - https://github.com/RMelanson/linux-scripts-api-rest-stockWidgets
 - - - -
-### About<img src="./images/aboutMickey.png" width="7%" align= "right">
+### About<img src="./images/aboutMickey.png" width="6%" align= "right">
 - Version: 1.0.0
 - Release Date: May 06 2018
 - Purpose: swBootstrap.sh is a simplified installation package for ...
