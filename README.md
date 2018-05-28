@@ -44,8 +44,8 @@ You're sections headers will be used to reference location of destination.
 ### Pakage Contents <img src="./images/contents.png" width="6%" align= "right">
 
 - README.md ~ Readme file
-[README.md](https://github.com/RMelanson/linux-scripts-apps-sw-api-rest/edit/master/README.md)
-[README.md](./README.md)
+- [README.md](https://github.com/RMelanson/linux-scripts-apps-sw-api-rest/blob/master/README.md)
+- [README.md](./README.md)
 https://github.com/RMelanson/linux-scripts-apps-sw-api-rest/edit/master/README.md
 - swAPIBootstrap.sh  ~ Installs the package
 - setup.sh - is the master setup file for package installation and may be run directly as root ./setup.sh
