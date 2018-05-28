@@ -12,7 +12,7 @@ You're sections headers will be used to reference location of destination.
 - [Video Tutorial](#Video-Tutoria)
 - [About the Author](#About-the-Author)
 - - - -
-### <b>Package linux-scripts-apps-sw-api-rest CopyRight** ©</b> <img src="./images/policeman.png" width="5%" align= "right">
+### <b>Package linux-scripts-apps-sw-api-rest CopyRight** ©</b> <img src="./images/policeman.png" width="6%" align= "right">
 
 - This program is free for re-distribution provided this copyright/license header is left in place.  
 - There is no warranty or guaranty of any kind in any way and is not assured to be as required and may not work exactly as designed for all os systems operating various potentially conflicting software.  
