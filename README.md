@@ -25,14 +25,14 @@ You're sections headers will be used to reference location of destination.
 ### Repository<img src="./images/repository.png" width="6%" align= "right">
 - https://github.com/RMelanson/linux-scripts-api-rest-stockWidgets
 - - - -
-### About<img src="./images/aboutMickey.png" width="6%" align= "right">
+### About<img src="./images/aboutMickey.png" width="7%" align= "right">
 - Version: 1.0.0
 - Release Date: May 06 2018
 - Purpose: swBootstrap.sh is a simplified installation package for ...
 - Description: swBootstrap.sh is a  bootstrap utility for downloading and installing .... XXXXXXXXX.sh may be installed as a bootstrap or after the Linux system has been launched. 
 - The swBootstrap.sh is used to download ??????? from the git repository for ...
 - - - -
-### Installation<img src="./images/installation.png" width="6%" align= "right">
+### Installation<img src="./images/installation.png" width="7%" align= "right">
 - Execute the swBootstrap.sh.sh*, upon installation of a new Linux installation as a bootstrap or as a stand alone bash script. If executing the script manually on a Linux O.S. after downloading from the git repository, be sure to:
   - execute as root ./swBootstrap.sh.sh
   - or as user with sudo access sudo ./swBootstrap.sh.sh
