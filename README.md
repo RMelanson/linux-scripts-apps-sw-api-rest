@@ -1,4 +1,5 @@
 # Package linux-scripts-apps-sw-api-rest<img src="./images/Rest1.png" width="6%" align= "right"><BR>
+  - - - -
 ### Table of Contents <img src="./images/dir3.png" width="5%" align= "right">
 You're sections headers will be used to reference location of destination.
 
@@ -22,14 +23,14 @@ You're sections headers will be used to reference location of destination.
 ## <b>**Install at your own Risk</b>
 ### Repository<img src="./images/repository.png" width="6%" align= "right">
 - https://github.com/RMelanson/linux-scripts-api-rest-stockWidgets
-#
+- - - -
 ### About<img src="./images/aboutMickey.png" width="6%" align= "right">
 - Version: 1.0.0
 - Release Date: May 06 2018
 - Purpose: swBootstrap.sh is a simplified installation package for ...
 - Description: swBootstrap.sh is a  bootstrap utility for downloading and installing .... XXXXXXXXX.sh may be installed as a bootstrap or after the Linux system has been launched. 
 - The swBootstrap.sh is used to download ??????? from the git repository for ...
-#
+- - - -
 ### Installation<img src="./images/installation.png" width="6%" align= "right">
 - Execute the swBootstrap.sh.sh*, upon installation of a new Linux installation as a bootstrap or as a stand alone bash script. If executing the script manually on a Linux O.S. after downloading from the git repository, be sure to:
   - execute as root ./swBootstrap.sh.sh
@@ -38,7 +39,7 @@ You're sections headers will be used to reference location of destination.
     - All script installation packages are installed under /tmp/scripts/???/???/??? directory and may be analyzed in that directory.
     - You may modify the script installation file (swBootstrap.sh.sh) to change the directory package installation location.
     - Upon Completion of installation, the installation directory and all contents may be removed.
-#
+- - - -
 ### Contents <img src="./images/contents.png" width="6%" align= "right">
 
 - README.md ~ Readme file
@@ -51,7 +52,7 @@ You're sections headers will be used to reference location of destination.
 -
 - 
    - ** (WIP**): indicates work is on going and package may not be stable or even usable.
-#
+- - - -
 ### Running the Package<img src="./images/running.png" width="6%" align= "right">
 It is recommended to read the contents of the scripts to be assured of the installation process and what will be installed.  There may not be an associated uninstalling script, so uninstalling is the owners responsibility.
 - There are two ways to install any of the packages listed under contents as file Format Type (swBootstrap.sh.sh).
@@ -59,10 +60,10 @@ It is recommended to read the contents of the scripts to be assured of the insta
   - 2. If executing the script manually on a Linux after the O.S. has been installed, be sure to
        - execute as root ./swBootstrap.sh.sh
        - or as user with sudo access sudo ./swBootstrap.sh.sh
-#
+- - - -
 ### Video Tutorial<img src="./images/video.png" width="6%" align= "right">
 - Video Tutorial Hyper Link comming soon...
-#
+- - - - -
 ### About the Author
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
 - Name: Robin Melanson
