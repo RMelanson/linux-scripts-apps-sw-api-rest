@@ -16,5 +16,8 @@ pkg=stockWidgets
 # INSTALL TEST DATA
 ./install/swTestDataBootstrap.sh
 
+# DEPLOY STOCK WIDGETS APPLICATIONS
+./install/deploySwWarApps.sh
+
 # INSTALL STOCK WIDGETS APPLICATION
 ./install/installSwApp.sh
