@@ -1,9 +1,9 @@
 #! /bin/bash
 
-# Setup the required environment
+# SETUP STOCK WIDGETS ENVIRONMENT
 . ./env/setEnv.sh#
 
-# Setup the required user
+# ADD STOCK WIDGETS ADMIN USER
 user=swadmin
 group=swadmin
 home=/home/SW_HOME
@@ -16,5 +16,5 @@ pkg=stockWidgets
 # INSTALL TEST DATA
 ./install/swTestDataBootstrap.sh
 
-# INSTALL STOCK WIDGETS
-./install/install_SW_App.sh
+# INSTALL STOCK WIDGETS APPLICATION
+./install/installSwApp.sh
