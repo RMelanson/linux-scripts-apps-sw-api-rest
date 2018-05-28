@@ -48,9 +48,9 @@ You're sections headers will be used to reference location of destination.
 - [setup.sh](./setup.sh) - is the master setup file for package installation and may be run directly as root ./setup.sh, or as user with sudo access sudo
   - install/
     - [addPkgUser($user $group $home $pkg)](./install/addPkgUser.sh) ~ Add user,group,home for application package Stock Widgets
-    - [install_EOD_TestData.sh](./install/install_EOD_TestData.sh) ~ Install Test Data
+    - [install_EOD_TestData.sh](./install/install_EOD_TestData.sh) ~ Install Stock Widgets Test Data
     - [jbossBootstrap](./install/jbossBootstrap.sh) ~ Install JBOSS
-    - [configureSwApp](./install/configureSwApp.sh) ~ Configure JBOSS to run Stockwidgets
+    - [configureSwApp](./install/configureSwApp.sh) ~ Configure JBOSS to run Stock Widgets
     - [deploySwWarApps](./install/deploySwWarApps.sh) ~ Deploy the Stock Widget Rest API and Web WAR Apps to JBOSS
  -
 -
