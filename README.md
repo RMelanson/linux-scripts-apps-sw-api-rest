@@ -10,7 +10,7 @@ You're sections headers will be used to reference location of destination.
 - [Running the Package](#Running-the-Package)
 - [Video Tutorial](#Video-Tutoria)
 - [About the Author](#About-the-Author)
-#
+- - - -
 ### <b>Package linux-scripts-apps-sw-api-rest CopyRight** ©</b> <img src="./images/policeman.png" width="5%" align= "right">
 
 - This program is free for re-distribution provided this copyright/license header is left in place.  
