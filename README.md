@@ -1,5 +1,5 @@
-# Package linux-scripts-apps-sw-api-rest<img src="./images/Rest1.png" width="6%" align= "right">
-### Table of Contents <img src="./images/contents.png" width="5%" align= "right">
+# Package linux-scripts-apps-sw-api-rest<img src="./images/Rest2.png" width="6%" align= "right">
+### Table of Contents <img src="./images/dir.png" width="5%" align= "right">
 You're sections headers will be used to reference location of destination.
 
 - [CopyRight ©](#CopyRight)
@@ -39,7 +39,7 @@ You're sections headers will be used to reference location of destination.
     - You may modify the script installation file (swBootstrap.sh.sh) to change the directory package installation location.
     - Upon Completion of installation, the installation directory and all contents may be removed.
 #
-### Contents <img src="./images/contents2.png" width="6%" align= "right">
+### Contents <img src="./images/contents.png" width="6%" align= "right">
 
 - README.md ~ Readme file
 - xxxxxBootstrap.sh  ~ Installs the package
