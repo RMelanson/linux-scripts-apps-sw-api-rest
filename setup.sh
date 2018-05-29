@@ -13,7 +13,7 @@
 ./install/jbossBootstrap.sh
 
 # CONFIGURE JBOSS TO RUN STOCK WIDGETS APPLICATION
-./install/configure SwApp.sh
+./install/configureSw.sh
 
 # DEPLOY STOCK WIDGETS WEB AND REST API APPLICATIONS
-./install/deploySwWarApps.sh
+./install/deploySwWarApps.sh $wfDeployDir
