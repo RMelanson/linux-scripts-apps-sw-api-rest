@@ -1,5 +1,5 @@
 #!/bin/bash
-swRestDir=$PWD
+
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root or under sudo"
@@ -9,13 +9,17 @@ fi
 if [ -z "$1" ]; then
    branch=master
 else
-  branch=$1
+   branch=$1
 fi
 
-#Set Cloning Properties
-pkg=Web
+swRestDir=$PWD
+baseDir=/tmp/scripts
+subDir=apps
+pkg=SW/API/REST
+installDir="$baseDir/$subDir/$pkg"
 gitRepo="linux-scripts-apps-sw-api-rest"
-installDir="/tmp/scripts/apps/SW/API/REST"
+
+#Set Cloning Properties
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone -b $branch git@github.com:RMelanson/"
 else
@@ -31,3 +35,4 @@ cd $installDir
 . ./setup.sh
 
 cd $swRestDir
+
