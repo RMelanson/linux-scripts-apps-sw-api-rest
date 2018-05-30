@@ -7,10 +7,10 @@
 ./install/addPkgUser.sh $user $group $home $pkg
 
 # INSTALL STOCK WIDGETS TEST DATA
-./install/swTestDataBootstrap.sh
+./install/bootstraps/swTestDataBootstrap.sh
 
 # INSTALL JBOSS
-./install/jbossBootstrap.sh
+./install/bootstraps/jbossBootstrap.sh
 
 # CONFIGURE JBOSS TO RUN STOCK WIDGETS APPLICATION
 ./install/configureSw.sh
