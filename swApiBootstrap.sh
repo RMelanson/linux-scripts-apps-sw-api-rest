@@ -12,12 +12,6 @@ yum update -y
 #INSTALL GIT
 yum install git -y
 
-if [ -z "$1" ]; then
-   branch=master
-else
-   branch=$1
-fi
-
 swRestDir=$PWD
 baseDir=/tmp/scripts
 subDir=apps
@@ -27,9 +21,9 @@ gitRepo="linux-scripts-apps-sw-api-rest"
 
 #Set Cloning Properties
 if [ -f ~/.ssh/gitHub.key ]; then
-   clone="git clone -b $branch git@github.com:RMelanson/"
+   clone="git clone git@github.com:RMelanson/"
 else
-   clone="git clone -b $branch https://github.com/RMelanson/"
+   clone="git clone https://github.com/RMelanson/"
 fi
 
 # Clone $pkg
