@@ -16,4 +16,4 @@
 ./install/configureSw.sh
 
 # DEPLOY STOCK WIDGETS WEB AND REST API APPLICATIONS
-./install/deploySwWarApps.sh $wfDeployDir
+#./install/deploySwWarApps.sh $wfDeployDir
