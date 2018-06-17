@@ -12,8 +12,14 @@
 # INSTALL JBOSS
 ./install/bootstraps/jbossBootstrap.sh
 
+# SHUTDOWN JBOSS
+service wildfly stop
+
 # CONFIGURE JBOSS TO RUN STOCK WIDGETS APPLICATION
 ./install/configureSw.sh
 
 # DEPLOY STOCK WIDGETS WEB AND REST API APPLICATIONS
 ./install/deploySwWarApps.sh $wfDeployDir
+
+# RESTART JBOSS
+service wildfly start
