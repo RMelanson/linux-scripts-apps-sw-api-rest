@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
+find . -name "*.sh" -exec chmod 700 {} \;
+
 # SETUP STOCK WIDGETS ENVIRONMENT
 . ./env/setEnv.sh
 
