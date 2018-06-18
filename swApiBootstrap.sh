@@ -37,7 +37,7 @@ cd $installDir
 find . -name "*.sh" -exec chmod 700 {} \;
 
 # Setup Project
-./setup 2>&1| tee setup.log
+./setup.sh 2>&1| tee setup.log
 
 cd $swRestDir
 
