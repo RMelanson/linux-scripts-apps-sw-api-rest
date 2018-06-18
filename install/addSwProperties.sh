@@ -20,4 +20,4 @@ else
     <\/system-properties>/' $file
 fi
 
-vi $file
+#vi $file
