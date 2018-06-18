@@ -9,9 +9,6 @@ find . -name "*.sh" -exec chmod 700 {} \;
 # ADD STOCK WIDGETS ADMIN USER
 ./install/addPkgUser.sh $user $group $home $pkg
 
-# INSTALL STOCK WIDGETS TEST DATA
-#./install/bootstraps/swTestDataBootstrap.sh
-
 # INSTALL JBOSS
 ./install/bootstraps/jbossBootstrap.sh
 
@@ -26,3 +23,6 @@ service wildfly stop
 
 # RESTART JBOSS
 service wildfly start
+
+# INSTALL STOCK WIDGETS TEST DATA
+./install/bootstraps/swTestDataBootstrap.sh
