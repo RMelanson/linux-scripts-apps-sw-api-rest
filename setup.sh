@@ -19,7 +19,7 @@ find . -name "*.sh" -exec chmod 700 {} \;
 service wildfly stop
 
 # CONFIGURE JBOSS SYSTEM PARAMETERS TO RUN STOCK WIDGETS APPLICATION
-./install/addSwProperties.sh
+#./install/addSwProperties.sh
 
 # DEPLOY STOCK WIDGETS WEB AND REST API APPLICATIONS
 ./install/deploySwWarApps.sh $wfDeployDir
