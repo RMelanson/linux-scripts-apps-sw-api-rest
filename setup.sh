@@ -10,7 +10,7 @@ find . -name "*.sh" -exec chmod 700 {} \;
 ./install/addPkgUser.sh $user $group $home $pkg
 
 # INSTALL STOCK WIDGETS TEST DATA
-./install/bootstraps/swTestDataBootstrap.sh
+#./install/bootstraps/swTestDataBootstrap.sh
 
 # INSTALL JBOSS
 ./install/bootstraps/jbossBootstrap.sh
