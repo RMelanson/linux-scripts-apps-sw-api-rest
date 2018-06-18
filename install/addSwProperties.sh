@@ -15,7 +15,7 @@ else
   echo Extension $ext found in $file
   sed -i 's/<\/extensions>/<\/extensions>\n\
     <system-properties>\
-        <property name="SW_HOME" value=\/home\/SW_HOME"\/>\
+        <property name="SW_HOME" value="\/home\/SW_HOME"\/>\
         <property name="SW_LOG_HOME" value="\/opt\/wildfly\/standalone\/log"\/>\
     <\/system-properties>/' $file
 fi
