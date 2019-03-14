@@ -12,11 +12,14 @@ yum update -y
 #INSTALL GIT
 yum install git -y
 
+# SETUP ENVIRONMENT AND PARAMETERS
+. ./env/setEnv.sh
+
 swRestDir=$PWD
 baseDir=/tmp/scripts
 subDir=apps
-pkg=SW/API/REST
-installDir="$baseDir/$subDir/$pkg"
+instpkg=SW/API/REST
+installDir="$baseDir/$subDirSW/API/REST"
 gitRepo="linux-scripts-apps-sw-api-rest"
 
 #Set Cloning Properties
