@@ -1,4 +1,6 @@
-export PKG=SW
+#!/bin/bash
+
+# STOCK WIDGETS CONFIGURATION PARAMETERSexport PKG=SW
 export SW_INSTALL=$PWD
 export SW_HOME=/home/SW_HOME
 SW_ENV=$SW_HOME/.env
