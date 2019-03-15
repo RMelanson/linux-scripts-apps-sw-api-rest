@@ -1,4 +1,5 @@
 #!/bin/bash
+swRestDir=$PWD
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
