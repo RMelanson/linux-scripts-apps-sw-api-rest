@@ -15,13 +15,6 @@ yum install git -y
 # SETUP ENVIRONMENT AND PARAMETERS
 . ./env/setEnv.sh
 
-swRestDir=$PWD
-baseDir=/tmp/scripts
-subDir=apps
-instpkg=SW/API/REST
-installDir="$baseDir/$subDirSW/API/REST"
-gitRepo="linux-scripts-apps-sw-api-rest"
-
 #Set Cloning Properties
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:RMelanson/"
