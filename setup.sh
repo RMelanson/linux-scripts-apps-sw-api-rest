@@ -6,6 +6,9 @@ find . -name "*.sh" -exec chmod 700 {} \;
 # SETUP STOCK WIDGETS ENVIRONMENT
 . ./env/setEnv.sh
 
+mkdir $SW_HOME
+mkdir $SW_ENV
+
 # ADD STOCK WIDGETS ADMIN USER
 ./install/addPkgUser.sh $user $group $home $pkg
 
