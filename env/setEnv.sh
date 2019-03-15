@@ -14,3 +14,9 @@ user=swadmin
 group=swadmin
 home=/home/SW_HOME
 pkg=stockWidgets
+
+baseDir=/tmp/scripts
+subDir=apps
+instpkg=SW/API/REST
+installDir="$baseDir/$subDirSW/API/REST"
+gitRepo="linux-scripts-apps-sw-api-rest"
