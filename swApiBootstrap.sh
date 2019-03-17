@@ -1,5 +1,4 @@
 #!/bin/bash
-swRestDir=$PWD
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
@@ -14,7 +13,11 @@ yum update -y
 yum install git -y
 
 # SETUP ENVIRONMENT AND PARAMETERS
-. ./env/setEnv.sh
+swRestDir=$PWD
+pkg=SW_API_REST
+gitRepo="linux-scripts-apps-sw-api-rest"
+installDir="/tmp/scripts/apps/$pkg"
+
 
 #Set Cloning Properties
 if [ -f ~/.ssh/gitHub.key ]; then
