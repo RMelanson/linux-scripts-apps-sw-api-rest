@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Ensure script is running under root
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root or under sudo"
+  exit -1
+fi
+
+#INITIAL BASIC TOOLS INSTALL
+yum update -y
+
+#INSTALL GIT
+yum install git -y
+
 # STOCK WIDGETS CONFIGURATION PARAMETERSexport PKG=SW
 pkg=STOCK_WIDGETS
 baseDir=/tmp/scripts
