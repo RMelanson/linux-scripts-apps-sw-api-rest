@@ -15,7 +15,7 @@ yum install git -y
 # SETUP ENVIRONMENT AND PARAMETERS
 swRestDir=$PWD
 pkg=SW_API_REST
-gitRepo="linux-scripts-apps-sw-api-rest"
+gitRepo="linux-scripts-apps-sw-api-rest.git"
 installDir="/tmp/scripts/apps/$pkg"
 
 
