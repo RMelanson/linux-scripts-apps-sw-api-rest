@@ -1,11 +1,15 @@
 #!/bin/bash
 
 # STOCK WIDGETS CONFIGURATION PARAMETERSexport PKG=SW
-pkg=SW_API_REST
 bootstrap="swApiBootstrap.sh"
-
 gitRepo="linux-scripts-apps-sw-api-rest"
-installDir="/tmp/scripts/apps/$pkg"
+
+#SET UP INSTALLATION DIRECTORY`
+pkg=SW_API_REST
+scriptType="apps"
+parentDir="/tmp/scripts/$scriptType/"
+installDir="$parentDir/$pkg"
+
 baseDir=/tmp/scripts
 subDir=apps
 
