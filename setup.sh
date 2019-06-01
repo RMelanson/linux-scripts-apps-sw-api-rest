@@ -4,7 +4,7 @@
 find . -name "*.sh" -exec chmod 700 {} \;
 
 # SETUP STOCK WIDGETS ENVIRONMENT
-. ./env/setEnv.sh
+. ./env/setEnv.sh $*
 
 # COPY RESTORE 
 cp $pkg_RESTORE.sh ..
