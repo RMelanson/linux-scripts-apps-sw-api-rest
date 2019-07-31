@@ -23,3 +23,12 @@ group=swadmin
 home=/home/SW_HOME
 
 instpkg=SW/API/REST
+
+pkgOwner=ec2-user
+
+echo Setting External Args
+echo These Arguments Overwrite Default Argument Settings
+for arg in "$@"; do
+  echo setArgs EXECUTING: export $arg
+  export $arg
+done
